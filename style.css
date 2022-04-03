@@ -1,0 +1,23 @@
+
+@import '~leaflet/dist/leaflet.css';
+@import "leaflet.markercluster/dist/MarkerCluster.css";
+@import "leaflet.markercluster/dist/MarkerCluster.Default.css";
+@import '~leaflet-groupedlayercontrol/src/leaflet.groupedlayercontrol.css';
+@import '~leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.css';
+
+html,body,#map{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin:0;
+  font-family:"微软雅黑";
+}
+h1, h2 {
+  font-family: Lato;
+}
+#fileSubmit{
+  position:absolute;
+  z-index:9999;
+  top:8%;
+  left :80%;
+}
